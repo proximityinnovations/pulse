@@ -1,4 +1,4 @@
-package main // import "github.com/bmartel/pulse"
+package main // import "github.com/proximityinnovations/pulse"
 
 import (
 	"net/http"
@@ -6,17 +6,17 @@ import (
 	"time"
 
 	"github.com/Sirupsen/logrus"
-	"github.com/bmartel/gin-amber"
-	"github.com/bmartel/pulse/app"
-	"github.com/bmartel/pulse/config"
-	"github.com/bmartel/pulse/db"
-	"github.com/bmartel/zero"
 	"github.com/facebookgo/inject"
 	"github.com/gin-gonic/contrib/cache"
 	"github.com/gin-gonic/contrib/ginrus"
 	"github.com/gin-gonic/contrib/gzip"
 	"github.com/gin-gonic/contrib/sessions"
 	"github.com/gin-gonic/gin"
+	"github.com/proximityinnovations/gin-amber"
+	"github.com/proximityinnovations/pulse/app"
+	"github.com/proximityinnovations/pulse/config"
+	"github.com/proximityinnovations/pulse/db"
+	"github.com/proximityinnovations/zero"
 	"github.com/spf13/viper"
 	"github.com/utrack/gin-csrf"
 )
