@@ -6,7 +6,6 @@ install:
 	chmod +x ./install.sh
 	./install.sh
 	git init
-	cp example.env .env
 	glide install
 	git add --all
 	git commit -m"Initial Commit"
