@@ -1,10 +1,6 @@
-hash: a7e4020f0ab6131cf6088f316f497020302f12d49759dd66c1ae281be7d24482
-updated: 2016-11-20T12:38:22.498909913-06:00
+hash: 495e5e088726e2659fb6e5d420b6881a53b13aa4116692d8de4edf88922f8d61
+updated: 2017-01-13T08:17:49.114680047-06:00
 imports:
-- name: github.com/bmartel/gin-amber
-  version: e56fa546587801cf7b5b9d116626e227dcc6703e
-- name: github.com/bmartel/zero
-  version: 9d61fbf5338e1900c1f090fc70aaae93f3b0e3bd
 - name: github.com/boj/redistore
   version: fc113767cd6b051980f260d6dbe84b2740c46ab0
 - name: github.com/bradfitz/gomemcache
@@ -36,7 +32,7 @@ imports:
   - gzip
   - sessions
 - name: github.com/gin-gonic/gin
-  version: 3900df04d2a88e22beaf6a2970c63648b9e1b0e1
+  version: e2212d40c62a98b388a5eb48ecbdcf88534688ba
   subpackages:
   - binding
   - render
@@ -64,7 +60,7 @@ imports:
   - json/scanner
   - json/token
 - name: github.com/jinzhu/gorm
-  version: 5d853fc53c446a8ce4c60bd85a771b4d5c54999d
+  version: 5174cc5c242a728b435ea2be8a2f7f998e15429b
   subpackages:
   - dialects/mysql
   - dialects/postgres
@@ -80,6 +76,8 @@ imports:
   version: 0723e352fa358f9322c938cc2dadda874e9151a9
 - name: github.com/manucorporat/sse
   version: ee05b128a739a0fb76c7ebd3ae4810c1de808d6d
+- name: github.com/mattn/go-isatty
+  version: 56b76bdf51f7708750eac80fa38b952bb9f32639
 - name: github.com/mattn/go-sqlite3
   version: e5a3c16c5c1d80b24f633e68aecd6b0702786d3d
 - name: github.com/mitchellh/mapstructure
@@ -88,10 +86,14 @@ imports:
   version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
 - name: github.com/pelletier/go-toml
   version: 45932ad32dfdd20826f5671da37a5f3ce9f26a8d
+- name: github.com/proximityinnovations/gin-amber
+  version: e56fa546587801cf7b5b9d116626e227dcc6703e
+- name: github.com/proximityinnovations/zero
+  version: 9d61fbf5338e1900c1f090fc70aaae93f3b0e3bd
 - name: github.com/robfig/go-cache
   version: 9fc39e0dbf62c034ec4e45e6120fc69433a3ec51
 - name: github.com/Sirupsen/logrus
-  version: 3ec0642a7fb6488f65b06f9040adc67e3990296a
+  version: d26492970760ca5d33129d2d799e34be5c4782eb
 - name: github.com/spf13/afero
   version: 06b7e5f50606ecd49148a01a6008942d9b669217
   subpackages:
