@@ -1,10 +1,6 @@
-hash: 20bc3c4f03631d84a9d0bd638a587dac6ae7271b672e9ebb4da63ed70c810411
-updated: 2017-01-12T11:15:04.826396741-06:00
+hash: e577adb43bdefd73aa50e0ee5d99b7f9164b0ceed7dbf6e34a353b5ad8f372bd
+updated: 2017-01-13T08:10:20.091144937-06:00
 imports:
-- name: github.com/bmartel/gin-amber
-  version: e56fa546587801cf7b5b9d116626e227dcc6703e
-- name: github.com/bmartel/zero
-  version: 9d61fbf5338e1900c1f090fc70aaae93f3b0e3bd
 - name: github.com/boj/redistore
   version: fc113767cd6b051980f260d6dbe84b2740c46ab0
 - name: github.com/bradfitz/gomemcache
@@ -73,6 +69,10 @@ imports:
   version: df1e16fde7fc330a0ca68167c23bf7ed6ac31d6d
 - name: github.com/pelletier/go-toml
   version: 439fbba1f887c286024370cb4f281ba815c4c7d7
+- name: github.com/proximityinnovations/gin-amber
+  version: e56fa546587801cf7b5b9d116626e227dcc6703e
+- name: github.com/proximityinnovations/zero
+  version: 9d61fbf5338e1900c1f090fc70aaae93f3b0e3bd
 - name: github.com/robfig/go-cache
   version: 9fc39e0dbf62c034ec4e45e6120fc69433a3ec51
 - name: github.com/Sirupsen/logrus
